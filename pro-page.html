@@ -1,88 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Max Chopiak Professional Page">
-  <meta name="author" content="Max Chopiak">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Max Chopiak CV">
+    <meta name="author" content="Max Chopiak">
 
-  <title>Max Chopiak - Professional Page</title>
-  <link href="img/icon-eye.png" rel="icon" type="image/png" sizes="32x32">
+    <title>Max Chopiak CV</title>
+    <link href="img/icon-eye.png" rel="icon" type="image/png" sizes="32x32">
 
-  <style>
-    html, body {
-      margin: 0;
-      padding: 0;
-      width: 100%;
-      min-height: 100%;
-      overflow-x: hidden;
-      background: #ffffff;
-    }
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/freelancer.css" rel="stylesheet">
 
-    * {
-      box-sizing: border-box;
-    }
-    
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
-    
-    .cv-frame {
-      position: relative;
-      width: 100%;
-      height: 0;
-      padding-top: 255.6369%;
-      overflow: hidden;
-      background: #ffffff;
-    }
+    <style>
+        html, body {
+            overflow-x: hidden;
+        }
 
-    .cv-frame iframe {
-      position: absolute;
-      inset: 0;
-      width: 100%;
-      height: 100%;
-      border: 0;
-      margin: 0;
-      padding: 0;
-      display: block;
-    }
+        body {
+            background-color: #ffffff;
+        }
 
-    @media (max-width: 1400px) {
-      .cv-frame {
-        padding-top: 270%;
-      }
-    }
+        .cv-header {
+            background: #18BC9C;
+            color: #fff;
+            padding: 140px 0 60px;
+            text-align: center;
+        }
 
-    @media (max-width: 1200px) {
-      .cv-frame {
-        padding-top: 290%;
-      }
-    }
+        .cv-header h1 {
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
 
-    @media (max-width: 992px) {
-      .cv-frame {
-        padding-top: 320%;
-      }
-    }
+        .cv-header .skills {
+            display: block;
+            font-size: 22px;
+            font-weight: 300;
+        }
 
-    @media (max-width: 768px) {
-      .cv-frame {
-        padding-top: 380%;
-      }
-    }
+        .cv-section {
+            padding: 60px 0;
+            background: #f7f7f7;
+        }
 
-    @media (max-width: 576px) {
-      .cv-frame {
-        padding-top: 440%;
-      }
-    }
+        .cv-frame-shell {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
 
-    @media (max-width: 420px) {
-      .cv-frame {
-        padding-top: 500%;
-      }
-    }
-  </style>
+        .cv-frame {
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-top: 255.6369%;
+            overflow: hidden;
+            border-radius: 12px;
+            background: #ffffff;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+        }
+
+        .cv-frame iframe {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .cv-actions {
+            margin-top: 25px;
+            text-align: center;
+        }
+
+        .cv-actions .btn {
+            margin: 8px;
+        }
+
+        .footer-note {
+            margin-top: 15px;
+        }
+
+        @media (max-width: 1199px) {
+            .cv-frame {
+                padding-top: 280%;
+            }
+        }
+
+        @media (max-width: 991px) {
+            .cv-header {
+                padding: 130px 0 50px;
+            }
+
+            .cv-header .skills {
+                font-size: 20px;
+            }
+
+            .cv-frame {
+                padding-top: 320%;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .cv-header {
+                padding: 120px 0 40px;
+            }
+
+            .cv-header h1 {
+                font-size: 38px;
+            }
+
+            .cv-header .skills {
+                font-size: 18px;
+                line-height: 1.5;
+                padding: 0 10px;
+            }
+
+            .cv-section {
+                padding: 40px 0;
+            }
+
+            .cv-frame-shell {
+                padding: 0 10px;
+            }
+
+            .cv-frame {
+                padding-top: 380%;
+                border-radius: 8px;
+            }
+        }
+
+        @media (max-width: 575px) {
+            .cv-header h1 {
+                font-size: 32px;
+            }
+
+            .cv-header .skills {
+                font-size: 16px;
+            }
+
+            .cv-frame {
+                padding-top: 430%;
+            }
+        }
+
+        @media (max-width: 420px) {
+            .cv-frame {
+                padding-top: 480%;
+            }
+        }
+    </style>
 </head>
+
+
+  
 <body id="page-top" class="index">
 <div id="skipnav"><a href="#maincontent">Skip to main content</a></div>
 
