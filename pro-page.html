@@ -4,9 +4,6 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Max Chopiak CV">
-  <meta name="author" content="Max Chopiak">
-
   <title>Max Chopiak CV</title>
   <link href="img/icon-eye.png" rel="icon" type="image/png" sizes="32x32">
 
@@ -24,6 +21,12 @@
       box-sizing: border-box;
     }
 
+    .cv-page {
+      width: 100%;
+      padding: 0;
+      margin: 0 auto;
+    }
+
     .cv-frame {
       position: relative;
       width: 100%;
@@ -39,56 +42,44 @@
       width: 100%;
       height: 100%;
       border: 0;
-      margin: 0;
-      padding: 0;
       display: block;
     }
 
     @media (max-width: 1400px) {
-      .cv-frame {
-        padding-top: 270%;
-      }
+      .cv-frame { padding-top: 270%; }
     }
 
     @media (max-width: 1200px) {
-      .cv-frame {
-        padding-top: 290%;
-      }
+      .cv-frame { padding-top: 290%; }
     }
 
     @media (max-width: 992px) {
-      .cv-frame {
-        padding-top: 320%;
-      }
+      .cv-frame { padding-top: 320%; }
     }
 
     @media (max-width: 768px) {
-      .cv-frame {
-        padding-top: 380%;
-      }
+      .cv-frame { padding-top: 380%; }
     }
 
     @media (max-width: 576px) {
-      .cv-frame {
-        padding-top: 440%;
-      }
+      .cv-frame { padding-top: 440%; }
     }
 
     @media (max-width: 420px) {
-      .cv-frame {
-        padding-top: 500%;
-      }
+      .cv-frame { padding-top: 500%; }
     }
   </style>
 </head>
 <body>
-  <div class="cv-frame">
-    <iframe
-      loading="lazy"
-      src="https://www.canva.com/design/DAHE5lcuT_Y/lG0wqnEtZMpZfPU9qinE2w/view?embed"
-      allowfullscreen="allowfullscreen"
-      allow="fullscreen">
-    </iframe>
-  </div>
+  <main class="cv-page">
+    <div class="cv-frame">
+      <iframe
+        loading="lazy"
+        src="https://www.canva.com/design/DAHE5lcuT_Y/lG0wqnEtZMpZfPU9qinE2w/view?embed"
+        allowfullscreen="allowfullscreen"
+        allow="fullscreen">
+      </iframe>
+    </div>
+  </main>
 </body>
 </html>
