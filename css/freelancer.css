@@ -425,7 +425,7 @@ div#maincontent {
 }
 .hero-arrow-link {
     position: absolute !important;
-    left: calc(100% + 218px) !important;
+    left: calc(100% + 200px) !important;
     top: 50% !important;
     transform: translateY(-50%) !important;
     display: block !important;
