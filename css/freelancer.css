@@ -368,7 +368,7 @@ div#maincontent {
 
 .hero-arrow-link {
     position: absolute;
-    left: calc(100% + 66px);
+    left: calc(100% + 106px);
     top: 50%;
     transform: translateY(-50%);
     display: block;
@@ -379,7 +379,7 @@ div#maincontent {
     width: 112px;
     height: 112px;
     display: block;
-    border-radius: 50%;
+    border-radius: 75%;
     object-fit: cover;
 }
 
@@ -389,8 +389,8 @@ div#maincontent {
     }
 
     .hero-arrow-img {
-        width: 102px;
-        height: 102px;
+        width: 132px;
+        height: 132px;
     }
 }
 
