@@ -433,8 +433,8 @@ div#maincontent {
 }
 
 .hero-arrow-mask {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     display: block;
     overflow: hidden;
     border-radius: 50%;
@@ -445,6 +445,6 @@ div#maincontent {
     height: 100%;
     display: block;
     object-fit: cover;
-    transform: scale(2.70);
+    transform: scale(2.30);
     transform-origin: center center;
 }
